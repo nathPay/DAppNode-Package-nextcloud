@@ -1,0 +1,46 @@
+{
+    "description": "DAppNode Package of nextcloud server. If you let everything by default in the mariadb package you can let this one by default too.",
+    "type": "object",
+    "properties": {
+        "DATABASE_PORT": {
+            "type": "string",
+            "title": "Database port"
+        }, 
+        "DATABASE_NAME": {
+            "type": "string",
+            "title": "Database name"
+        },
+        "DATABASE_USERNAME": {
+            "type": "string",
+            "title": "Database username",
+            "description": "This should be nextcloud"
+        },
+        "DATABASE_PASSWORD": {
+            "type": "string",
+            "title": "Database Password"
+        },
+        "ADMIN_USERNAME": {
+            "type": "string",
+            "title": "Admin username",
+            "description": "Nextcloud admin"
+        },
+        "ADMIN_PASSWORD": {
+            "type": "string",
+            "title": "Admin password",
+            "description": "Nextcloud admin"
+        },
+        "TRUSTED_DOMAIN_0": {
+            "type": "string",
+            "title": "Nom de domain 0",
+            "description": "One should be 127.0.0.1:portYouChoose"
+        },
+        "TRUSTED_DOMAIN_1": {
+            "type": "string",
+            "title": "Nom de domain 1"
+        },
+        "TRUSTED_DOMAIN_2": {
+            "type": "string",
+            "title": "Nom de domain 2"
+        }
+    }
+}

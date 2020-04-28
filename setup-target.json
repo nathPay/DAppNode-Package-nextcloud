@@ -1,0 +1,38 @@
+{
+    "DATABASE_PORT": {
+        "type": "environment",
+        "name": "DATABASE_PORT"
+    }, 
+    "DATABASE_NAME": {
+        "type": "environment",
+        "name": "DATABASE_NAME"
+    },
+    "DATABASE_USERNAME": {
+        "type": "environment",
+        "name": "DATABASE_USERNAME"
+    },
+    "DATABASE_PASSWORD": {
+        "type": "environment",
+        "name": "DATABASE_PASSWORD"
+    },
+    "ADMIN_USERNAME": {
+        "type": "environment",
+        "name": "ADMIN_USERNAME"
+    },
+    "ADMIN_PASSWORD": {
+        "type": "environment",
+        "name": "ADMIN_PASSWORD"
+    },
+    "TRUSTED_DOMAIN_0": {
+        "type": "environment",
+        "name": "TRUSTED_DOMAIN_0"
+    },
+    "TRUSTED_DOMAIN_1": {
+        "type": "environment",
+        "name": "TRUSTED_DOMAIN_1"
+    },
+    "TRUSTED_DOMAIN_2": {
+        "type": "environment",
+        "name": "TRUSTED_DOMAIN_2"
+    }
+}

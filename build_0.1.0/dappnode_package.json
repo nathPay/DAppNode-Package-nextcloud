@@ -1,0 +1,15 @@
+{
+  "name": "nextcloud-dappnode-package.public.dappnode.eth",
+  "version": "0.1.0",
+  "description": "A simple way to deploy nexcloud on your dappnode",
+  "avatar": "",
+  "type": "service",
+  "author": "Nathan Payre",
+  "categories": [
+    "Developer tools"
+  ],
+  "links": {
+    "homepage": "https://github.com/natPay"
+  },
+  "license": "GLP-3.0"
+}

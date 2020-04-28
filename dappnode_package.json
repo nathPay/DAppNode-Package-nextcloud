@@ -1,0 +1,16 @@
+{
+  "name": "nextcloud-dappnode-package.public.dappnode.eth",
+  "version": "0.1.0",
+  "description": "A simple way to deploy nexcloud on your dappnode",
+  "avatar": "",
+  "type": "service",
+  "author": "Nathan Payre",
+  "categories": [
+    "Developer tools"
+  ],
+  "links": {
+    "package": "https://github.com/nathPay/DAppNode-Package-nextcloud",
+    "dockerhub": "https://hub.docker.com/r/dotriver/nextcloud"
+  },
+  "license": "GLP-3.0"
+}

@@ -1,0 +1,27 @@
+version: '3.4'
+services:
+  nextcloud.public.dappnode.eth:
+    build: ./build
+    image: 'nextcloud.public.dappnode.eth:0.1.0'
+    environment:
+      - DATABASE_HOST=mariadb-nextcloud.public.dappnode.eth
+      - DATABASE_PORT=3306
+      - DATABASE_NAME=nextcloud
+      - DATABASE_USERNAME=nextcloud
+      - DATABASE_PASSWORD=password
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASSWORD=password
+      - 'TRUSTED_DOMAIN_0=127.0.0.1:8353'
+      - 'TRUSTED_DOMAIN_1=nextcloud.public.dappnode'
+      - 'TRUSTED_DOMAIN_2='
+    ports:
+      - '8353:80'
+    volumes:
+      - 'nextcloud-data:/var/www/nextcloud/'
+    networks:
+      - nextcloud
+    restart: always
+volumes:
+  nextcloud-data: {}
+networks:
+  nextcloud:
